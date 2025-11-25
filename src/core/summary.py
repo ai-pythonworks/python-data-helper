@@ -1,0 +1,1 @@
+def summarize(data): pass
