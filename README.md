@@ -15,3 +15,19 @@ If you'd like to contribute, please follow these simple steps:
 💡 Every small contribution helps improve this project for everyone!
 
 ---
+---
+
+## 📄 MIT License (Explained)
+
+This project is licensed under the **MIT License**, which means:
+
+- You can freely use the code  
+- Modify it  
+- Distribute it  
+- Even use it in commercial projects  
+
+as long as you include the original MIT License notice.
+
+The MIT License is one of the most permissive open-source licenses, encouraging wide usage and contribution.
+
+---
