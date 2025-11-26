@@ -17,6 +17,141 @@ If you'd like to contribute, please follow these simple steps:
 ---
 ---
 
+## 📋 Table of Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Quick Start](#quick-start)
+- [Module Documentation](#module-documentation)
+- [Usage Examples](#usage-examples)
+- [Requirements](#requirements)
+- [Contributing](#contributing)
+- [License](#license)
+
+---
+
+## ✨ Features
+
+- **Data Loading**: Easy-to-use functions for loading data from various file formats (CSV, JSON, Excel)
+- **Data Cleaning**: Utility functions for cleaning and preprocessing text and data
+- **Data Summarization**: Statistical summary generation with comprehensive analytics
+- **Modular Design**: Well-organized modules for different data processing tasks
+- **Fully Documented**: Comprehensive docstrings and usage examples
+
+---
+
+## 📦 Installation
+
+### Install from Source
+
+```bash
+# Clone the repository
+git clone https://github.com/ai-pythonworks/python-data-helper.git
+
+# Navigate to the project directory
+cd python-data-helper
+
+# Install in development mode
+pip install -e .
+```
+
+---
+
+## 🚀 Quick Start
+
+```python
+# Import the modules
+from src.io.loader import load_csv
+from src.core.summary import summarize
+from src.utils.cleaner import clean_text
+
+# Load data from a CSV file
+data = load_csv('path/to/your/data.csv')
+
+# Generate statistical summary
+summary_stats = summarize(data)
+print(summary_stats)
+
+# Clean text data
+cleaned_text = clean_text('  Hello World  ')
+print(cleaned_text)  # Output: 'Hello World'
+```
+
+---
+
+## 📚 Module Documentation
+
+### `src.io.loader`
+Handles data loading operations from various file formats.
+
+**Functions:**
+- `load_csv(path)`: Load data from CSV files
+  - **Parameters**: `path` (str) - File path to the CSV file
+  - **Returns**: pandas DataFrame containing the loaded data
+  - **Raises**: FileNotFoundError, PermissionError, ParserError
+
+### `src.core.summary`
+Provides statistical analysis and summary generation.
+
+**Functions:**
+- `summarize(data)`: Generate comprehensive statistical summaries
+  - **Parameters**: `data` - pandas DataFrame or array containing numerical data
+  - **Returns**: Dictionary with statistical metrics (mean, median, mode, std, min, max, quartiles)
+  - **Raises**: ValueError, TypeError
+
+### `src.utils.cleaner`
+Utility functions for data cleaning and preprocessing.
+
+**Functions:**
+- `clean_text(text)`: Clean and normalize text by removing whitespace
+  - **Parameters**: `text` (str) - Input text string
+  - **Returns**: Cleaned text with leading/trailing whitespace removed
+
+---
+
+## 💡 Usage Examples
+
+### Example 1: Loading and Analyzing Data
+
+```python
+from src.io.loader import load_csv
+from src.core.summary import summarize
+
+# Load sales data
+sales_data = load_csv('data/sales.csv')
+
+# Get statistical summary
+stats = summarize(sales_data)
+
+# Print results
+print(f"Mean: {stats['mean']}")
+print(f"Median: {stats['median']}")
+print(f"Standard Deviation: {stats['std']}")
+```
+
+### Example 2: Text Cleaning
+
+```python
+from src.utils.cleaner import clean_text
+
+# Clean messy text data
+raw_text = "  Python Programming  \n\t"
+cleaned = clean_text(raw_text)
+print(cleaned)  # Output: 'Python Programming'
+```
+
+---
+
+## 🔧 Requirements
+
+- Python 3.7+
+- pandas >= 1.0.0
+- numpy >= 1.18.0
+
+---
+
+
+
 ## 📄 MIT License (Explained)
 
 This project is licensed under the **MIT License**, which means:
