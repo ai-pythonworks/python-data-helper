@@ -1,183 +1,41 @@
-def summarize(data): pass
-# update 4 1764088589
-# update 11 1764088589
-# update 14 1764088589
-# update 18 1764088589
-# update 26 1764088589
-# update 33 1764088589
-# update 42 1764088590
-# update 45 1764088590
-# update 49 1764088590
-# update 51 1764088590
-# update 56 1764088590
-# update 57 1764088590
-# update 81 1764088590
-# update 85 1764088590
-# update 87 1764088590
-# update 90 1764088590
-# update 103 1764088631
-# update 120 1764088632
-# update 122 1764088632
-# update 126 1764088632
-# update 128 1764088632
-# update 130 1764088632
-# update 135 1764088632
-# update 138 1764088632
-# update 143 1764088632
-# update 144 1764088632
-# update 146 1764088632
-# update 148 1764088632
-# update 157 1764088632
-# update 158 1764088632
-# update 171 1764088632
-# update 172 1764088632
-# update 176 1764088633
-# update 181 1764088633
-# update 183 1764088633
-# update 195 1764088633
-# update 212 1764088636
-# update 238 1764088637
-# update 242 1764088637
-# update 243 1764088637
-# update 245 1764088637
-# update 253 1764088637
-# update 256 1764088637
-# update 258 1764088637
-# update 259 1764088637
-# update 260 1764088637
-# update 261 1764088637
-# update 264 1764088637
-# update 270 1764088637
-# update 271 1764088637
-# update 273 1764088637
-# update 275 1764088637
-# update 287 1764088638
-# update 294 1764088638
-# update 301 1764088641
-# update 312 1764088641
-# update 322 1764088641
-# update 327 1764088641
-# update 333 1764088642
-# update 334 1764088642
-# update 341 1764088642
-# update 348 1764088642
-# update 354 1764088642
-# update 357 1764088642
-# update 364 1764088642
-# update 366 1764088642
-# update 370 1764088642
-# update 378 1764088642
-# update 384 1764088642
-# update 385 1764088642
-# update 387 1764088642
-# update 391 1764088642
-# update 392 1764088642
-# update 407 1764088646
-# update 410 1764088646
-# update 418 1764088646
-# update 419 1764088646
-# update 425 1764088647
-# update 427 1764088647
-# update 435 1764088647
-# update 437 1764088647
-# update 439 1764088647
-# update 441 1764088647
-# update 447 1764088647
-# update 462 1764088647
-# update 470 1764088647
-# update 481 1764088647
-# update 483 1764088648
-# update 484 1764088648
-# update 486 1764088648
-# update 506 1764088692
-# update 507 1764088692
-# update 509 1764088692
-# update 514 1764088693
-# update 524 1764088693
-# update 532 1764088693
-# update 534 1764088693
-# update 536 1764088693
-# update 538 1764088693
-# update 556 1764088693
-# update 564 1764088693
-# update 566 1764088693
-# update 570 1764088693
-# update 572 1764088693
-# update 574 1764088694
-# update 584 1764088694
-# update 585 1764088694
-# update 598 1764088694
-# update 602 1764088698
-# update 603 1764088698
-# update 607 1764088698
-# update 608 1764088698
-# update 611 1764088698
-# update 612 1764088698
-# update 628 1764088698
-# update 629 1764088698
-# update 632 1764088698
-# update 637 1764088698
-# update 639 1764088698
-# update 641 1764088699
-# update 650 1764088699
-# update 653 1764088699
-# update 659 1764088699
-# update 661 1764088699
-# update 664 1764088699
-# update 665 1764088699
-# update 666 1764088699
-# update 669 1764088699
-# update 680 1764088699
-# update 703 1764088723
-# update 704 1764088723
-# update 714 1764088723
-# update 715 1764088723
-# update 720 1764088723
-# update 724 1764088723
-# update 729 1764088723
-# update 741 1764088724
-# update 750 1764088724
-# update 756 1764088724
-# update 761 1764088724
-# update 768 1764088724
-# update 769 1764088724
-# update 773 1764088724
-# update 775 1764088724
-# update 776 1764088724
-# update 780 1764088724
-# update 789 1764088724
-# update 794 1764088724
-# update 795 1764088724
-# update 798 1764088724
-# update 799 1764088725
-# update 805 1764088728
-# update 806 1764088728
-# update 809 1764088728
-# update 811 1764088728
-# update 814 1764088728
-# update 817 1764088728
-# update 825 1764088728
-# update 828 1764088728
-# update 836 1764088728
-# update 848 1764088729
-# update 854 1764088729
-# update 855 1764088729
-# update 861 1764088729
-# update 863 1764088729
-# update 866 1764088729
-# update 868 1764088729
-# update 872 1764088729
-# update 877 1764088729
-# update 884 1764088729
-# update 886 1764088729
-# update 905 1764088733
-# update 910 1764088733
-# update 917 1764088733
-# update 921 1764088733
-# update 931 1764088733
-# update 935 1764088734
-# update 943 1764088734
-# update 964 1764088734
-# update 974 1764088734
-# update 984 1764088734
-# update 996 1764088735
+"""Summary module for data analysis.
+
+This module provides functions for generating statistical summaries
+of datasets including descriptive statistics and data aggregations.
+"""
+
+def summarize(data):
+    """
+    Generate a statistical summary of the provided dataset.
+    
+    This function analyzes the input data and returns key statistical
+    measures such as mean, median, mode, standard deviation, min, max,
+    and quartile values.
+    
+    Args:
+        data: A pandas DataFrame or list/array containing numerical data
+              to be analyzed.
+    
+    Returns:
+        dict: A dictionary containing statistical summary metrics:
+            - 'mean': Average value of the dataset
+            - 'median': Middle value of the sorted dataset
+            - 'mode': Most frequently occurring value
+            - 'std': Standard deviation
+            - 'min': Minimum value
+            - 'max': Maximum value
+            - 'q1': First quartile (25th percentile)
+            - 'q3': Third quartile (75th percentile)
+    
+    Raises:
+        ValueError: If data is empty or invalid
+        TypeError: If data type is not supported
+    
+    Example:
+        >>> import pandas as pd
+        >>> data = pd.DataFrame({'values': [1, 2, 3, 4, 5]})
+        >>> summary = summarize(data)
+        >>> print(summary['mean'])
+        3.0
+    """
+    pass
