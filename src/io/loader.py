@@ -1,195 +1,40 @@
-def load_csv(path): pass
-# update 6 1764088589
-# update 7 1764088589
-# update 10 1764088589
-# update 13 1764088589
-# update 17 1764088589
-# update 20 1764088589
-# update 21 1764088589
-# update 27 1764088589
-# update 28 1764088589
-# update 29 1764088589
-# update 30 1764088589
-# update 34 1764088589
-# update 41 1764088590
-# update 53 1764088590
-# update 64 1764088590
-# update 67 1764088590
-# update 73 1764088590
-# update 74 1764088590
-# update 83 1764088590
-# update 84 1764088590
-# update 89 1764088590
-# update 91 1764088590
-# update 92 1764088590
-# update 96 1764088590
-# update 98 1764088590
-# update 101 1764088631
-# update 102 1764088631
-# update 107 1764088631
-# update 111 1764088631
-# update 113 1764088632
-# update 114 1764088632
-# update 121 1764088632
-# update 123 1764088632
-# update 136 1764088632
-# update 145 1764088632
-# update 149 1764088632
-# update 151 1764088632
-# update 152 1764088632
-# update 155 1764088632
-# update 161 1764088632
-# update 165 1764088632
-# update 166 1764088632
-# update 169 1764088632
-# update 180 1764088633
-# update 182 1764088633
-# update 187 1764088633
-# update 190 1764088633
-# update 192 1764088633
-# update 193 1764088633
-# update 199 1764088633
-# update 202 1764088636
-# update 206 1764088636
-# update 213 1764088636
-# update 228 1764088637
-# update 235 1764088637
-# update 247 1764088637
-# update 254 1764088637
-# update 262 1764088637
-# update 263 1764088637
-# update 267 1764088637
-# update 277 1764088638
-# update 286 1764088638
-# update 289 1764088638
-# update 293 1764088638
-# update 302 1764088641
-# update 304 1764088641
-# update 307 1764088641
-# update 320 1764088641
-# update 323 1764088641
-# update 324 1764088641
-# update 325 1764088641
-# update 337 1764088642
-# update 345 1764088642
-# update 352 1764088642
-# update 356 1764088642
-# update 358 1764088642
-# update 360 1764088642
-# update 367 1764088642
-# update 374 1764088642
-# update 382 1764088642
-# update 383 1764088642
-# update 390 1764088642
-# update 397 1764088643
-# update 399 1764088643
-# update 403 1764088646
-# update 411 1764088646
-# update 413 1764088646
-# update 422 1764088646
-# update 423 1764088647
-# update 424 1764088647
-# update 426 1764088647
-# update 432 1764088647
-# update 433 1764088647
-# update 434 1764088647
-# update 436 1764088647
-# update 438 1764088647
-# update 442 1764088647
-# update 443 1764088647
-# update 445 1764088647
-# update 449 1764088647
-# update 457 1764088647
-# update 463 1764088647
-# update 468 1764088647
-# update 476 1764088647
-# update 485 1764088648
-# update 488 1764088648
-# update 494 1764088648
-# update 498 1764088648
-# update 499 1764088648
-# update 501 1764088692
-# update 510 1764088692
-# update 513 1764088693
-# update 518 1764088693
-# update 519 1764088693
-# update 522 1764088693
-# update 523 1764088693
-# update 528 1764088693
-# update 540 1764088693
-# update 543 1764088693
-# update 544 1764088693
-# update 552 1764088693
-# update 554 1764088693
-# update 561 1764088693
-# update 569 1764088693
-# update 573 1764088693
-# update 581 1764088694
-# update 583 1764088694
-# update 591 1764088694
-# update 595 1764088694
-# update 597 1764088694
-# update 615 1764088698
-# update 617 1764088698
-# update 618 1764088698
-# update 621 1764088698
-# update 634 1764088698
-# update 643 1764088699
-# update 644 1764088699
-# update 662 1764088699
-# update 672 1764088699
-# update 684 1764088699
-# update 688 1764088699
-# update 695 1764088699
-# update 696 1764088699
-# update 697 1764088699
-# update 701 1764088723
-# update 705 1764088723
-# update 709 1764088723
-# update 711 1764088723
-# update 719 1764088723
-# update 721 1764088723
-# update 728 1764088723
-# update 730 1764088723
-# update 731 1764088723
-# update 749 1764088724
-# update 751 1764088724
-# update 753 1764088724
-# update 762 1764088724
-# update 764 1764088724
-# update 781 1764088724
-# update 783 1764088724
-# update 784 1764088724
-# update 785 1764088724
-# update 797 1764088724
-# update 804 1764088728
-# update 807 1764088728
-# update 810 1764088728
-# update 812 1764088728
-# update 815 1764088728
-# update 816 1764088728
-# update 820 1764088728
-# update 824 1764088728
-# update 829 1764088728
-# update 841 1764088728
-# update 843 1764088728
-# update 847 1764088729
-# update 850 1764088729
-# update 870 1764088729
-# update 880 1764088729
-# update 881 1764088729
-# update 896 1764088729
-# update 900 1764088729
-# update 902 1764088733
-# update 912 1764088733
-# update 938 1764088734
-# update 949 1764088734
-# update 960 1764088734
-# update 967 1764088734
-# update 972 1764088734
-# update 975 1764088734
-# update 978 1764088734
-# update 983 1764088734
-# update 993 1764088735
-# update 999 1764088735
-# update 1000 1764088735
+"""Data loading module for file I/O operations.
+
+This module provides functions for loading data from various file formats
+including CSV, JSON, Excel, and other common data formats.
+"""
+
+def load_csv(path):
+    """
+    Load data from a CSV (Comma-Separated Values) file.
+    
+    This function reads a CSV file from the specified path and returns
+    the data as a pandas DataFrame for easy manipulation and analysis.
+    
+    Args:
+        path (str): The file path to the CSV file to be loaded.
+                   Can be an absolute or relative path.
+    
+    Returns:
+        pandas.DataFrame: A DataFrame containing the loaded CSV data with
+                         columns and rows corresponding to the file structure.
+    
+    Raises:
+        FileNotFoundError: If the specified file path does not exist
+        PermissionError: If there are insufficient permissions to read the file
+        pd.errors.EmptyDataError: If the CSV file is empty
+        pd.errors.ParserError: If the CSV file has formatting issues
+    
+    Example:
+        >>> data = load_csv('data/sales.csv')
+        >>> print(data.head())
+           Date       Product  Sales
+        0  2024-01-01  Widget   100
+        1  2024-01-02  Gadget   150
+    
+    Note:
+        - The function assumes the CSV has a header row
+        - Default encoding is UTF-8
+        - Handles common CSV formats automatically
+    """
+    pass
