@@ -166,3 +166,23 @@ as long as you include the original MIT License notice.
 The MIT License is one of the most permissive open-source licenses, encouraging wide usage and contribution.
 
 ---
+## License
+
+This project is licensed under the **Apache License 2.0**.
+
+The Apache 2.0 License allows:
+
+- Free use of the software  
+- Modification and redistribution  
+- Commercial usage  
+
+as long as you:
+
+- Include a copy of the Apache 2.0 License  
+- Provide proper attribution to the original authors  
+- Clearly state any modifications  
+
+Full license text:  
+👉 https://www.apache.org/licenses/LICENSE-2.0
+
+This improves clarity and aligns the README with standard open-source documentation practices.
